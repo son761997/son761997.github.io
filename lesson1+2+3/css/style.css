@@ -1,0 +1,39 @@
+.Menu pre {
+  color: aliceblue;
+}
+.Menu {
+  background-color: rgb(6, 6, 58);
+}
+.Content {
+  background-color: rgba(174, 166, 218, 0.856);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgb(1 1 0 / 15%);
+  padding: 30px;
+  position: relative;
+}
+.Content ~ h1 {
+  font-size: 40px;
+}
+.Content ~ h2 {
+  font-size: medium;
+}
+.Relate_tag ~ pre {
+  font-size: small;
+}
+.Main_content ~ b {
+  font-size: 32px;
+}
+.Content_menu {
+  background-color: rgba(150, 147, 192, 0.836);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgb(1 1 0 / 15%);
+  padding: 30px;
+  position: relative;
+}
+.Location {
+  background-color: rgba(107, 105, 145, 0.836);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgb(1 1 0 / 15%);
+  padding: 30px;
+  position: relative;
+}
