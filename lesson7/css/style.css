@@ -1,0 +1,134 @@
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.logostore {
+  display: block;
+}
+.nav {
+  display: flex;
+  background-color: black;
+  margin: 1pc;
+  flex-direction: row;
+  border: 5px ;
+  padding: 10px 0;
+}
+.nav a {
+  display: block;
+    
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+  
+    line-height: 55px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+.navrow1 {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin: auto;
+width: 50%;
+border: 5px;
+padding: 10px;
+}
+.navrow1 ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+.item {
+  display: flex;
+  margin: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+.slider {
+        width: 1000px;
+        height: 600px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 3000px;
+        background-color: pink;
+        height: 600px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -1000px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -2000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+.item-showcase{
+  display: flex;
+}
+.item-row1{
+  display: inline-flex;
+  flex-direction: row;
+}
+.item-row2{
+  display: inline-flex;
+  flex-direction: row;
+   justify-content:center;
+   flex-wrap: wrap;
+}
+.item-row3{
+  display: inline-flex;
+  flex-direction: row;
+}
+.title{
+  display: flex;
+  justify-content:center;
+  margin: 8px;
+  font-size: 30px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+
+}
+.slideitem{
+  display: flex;
+  margin: 8px;
+
+
+}
+.footer{
+   display: flex;
+  background-color: black;
+  justify-content: center;
+}
