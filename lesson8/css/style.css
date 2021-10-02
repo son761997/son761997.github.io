@@ -1,0 +1,171 @@
+/* Header */
+.header_logo {
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-wrapper {
+    background-color: #8db1ab;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+}
+
+.brand,
+.slogan {
+    text-transform: uppercase;
+}
+
+.brand {
+    line-height: 1;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.slogan {
+    margin-top: -5px;
+    color: #8db1ab;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn--collapse {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+}
+
+.btn--collapse .icon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Menu */
+.nav {
+
+    border-bottom: 1px solid #dfe9e7;
+}
+
+.dropdown {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.menu {
+    display: block;
+}
+
+.menu_item {
+    text-align: right;
+}
+
+.menu_link {
+    padding: 10px;
+}
+
+
+
+    .dropdown {
+        height: auto;
+    }
+
+    .btn--collapse {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu_link {
+        padding: 20px;
+    }
+
+
+.menu_link {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu_link--active {
+    color: #8db1ab;
+}
+
+/* Projects */
+.section_projects {
+    padding: 50px 0;
+    border-bottom: 1px solid #dfe9e7;
+}
+
+.project-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    padding: 100px 0;
+}
+
+.footer_heading {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_brand {
+    margin-bottom: 20px;
+}
+
+.footer_slogan {
+    font-weight: 600;
+}
+
+.social_item {
+    background-color: #f5f6f8;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.social_item .icon {
+    width: 20px;
+}
+
+.footer_menu_item {
+    margin-bottom: 10px;
+}
+
+.footer_menu_link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.copyright {
+    font-weight: 600;
+    margin-top: 100px;
+}
+

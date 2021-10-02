@@ -1,12 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/grid.css" />
+        <link rel="stylesheet" href="css/style.css" />
+       
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="col">
+                        <a class="header_logo" href="#">
+                            <div class="header_brand flex column align-center">
+                                <div
+                                    class="
+                                        icon-wrapper
+                                        flex
+                                        justify-center
+                                        align-center
+                                    "
+                                >
+                                    <img
+                                        class="icon"
+                                        src="image/compass.png"
+                                        alt="Monarch"
+                                    />
+                                </div>
+                                <div class="text-center">
+                                    <h1 class="brand">Monarch</h1>
+                                    <p class="slogan">Architecture Agency</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="container">
+                <div class="col-12">
+                    
+                    <div class="dropdown">
+                        <ul class="menu flex justify-center">
+                            <li class="menu_item">
+                                <a
+                                    href="#"
+                                    class="menu_link menu_link--active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">About</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">Services</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">Porfolio</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">Blog</a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section section_projects">
+            <div class="container--fluid">
+                <div class="row">
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-1.webp"
+                                    alt="project1"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-2.webp"
+                                    alt="project2"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-3.webp"
+                                    alt="project3"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-4.webp"
+                                    alt="project4"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-5.webp"
+                                    alt="project5"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-6.webp"
+                                    alt="project6"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-7.webp"
+                                    alt="project7"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-8.webp"
+                                    alt="project8"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-9.webp"
+                                    alt="project9"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-10.webp"
+                                    alt="project10"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-11.webp"
+                                    alt="project11"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-3">
+                        <div class="project-wrapper">
+                            <div class="project">
+                                <img
+                                    class="project-img"
+                                    src="image/project-12.webp"
+                                    alt="project12"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="footer_brand">
+                            <a href="#" class="footer_logo footer_heading"
+                                >Monarch</a
+                            >
+                            <p class="footer_slogan">
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                        </div>
+
+                        <div class="footer_social">
+                            <p class="footer_heading">Connect with us</p>
+
+                            <div class="social_list flex">
+                                <a
+                                    href="#"
+                                    class="
+                                        social_item
+                                        flex
+                                        justify-center
+                                        align-center
+                                    "
+                                >
+                                    <img
+                                        class="icon"
+                                        src="image/twitter.png"
+                                        alt="twitter"
+                                    />
+                                </a>
+                                <a
+                                    href="#"
+                                    class="
+                                        social_item
+                                        flex
+                                        justify-center
+                                        align-center
+                                    "
+                                >
+                                    <img
+                                        class="icon"
+                                        src="image/facebook.png"
+                                        alt="facebook"
+                                    />
+                                </a>
+                                <a
+                                    href="#"
+                                    class="
+                                        social_item
+                                        flex
+                                        justify-center
+                                        align-center
+                                    "
+                                >
+                                    <img
+                                        class="icon"
+                                        src="image/instagram.png"
+                                        alt="instagram"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <p class="footer_heading">Navigation</p>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <ul class="footer_menu">
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Services</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Work</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul class="footer_menu">
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Press</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Blog</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Contact</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Support</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Privacy</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul class="footer_menu">
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >FAQ</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Careers</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Procedure</a
+                                        >
+                                    </li>
+                                    <li class="footer_menu_item">
+                                        <a href="#" class="footer_menu_link"
+                                            >Team</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-center">
+                    <div class="col">
+                        <p class="copyright">
+                            Copyright ©2020 All rights reserved | By Ba Nguyễn
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
