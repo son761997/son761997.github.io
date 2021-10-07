@@ -1,0 +1,65 @@
+.header li{
+    display: inline-block; 
+    position: relative;
+    color: #fff;
+    padding: 12px 0 12px 25px;
+    transition: .3s;
+    font-size: 12pt;
+    color: white;
+    margin-bottom: 25px;
+   
+}
+.header{
+    display: flex;
+    background: linear-gradient(to right, #cc0000 0%, #3366ff 66%);
+    margin: 0;
+    color: white;
+    
+}
+.head_menu a {
+
+    color: white;
+}
+.logo a {
+    color: white;
+}
+/* Projects */
+.section_projects {
+    padding: 50px 0;
+    border-bottom: 1px solid #dfe9e7;
+}
+
+.project-img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.project-img1 {
+    width: 50%;
+    height: 50%;
+
+}
+.row_item{
+    display: inline-block;
+}
+table,tr,td{
+    border: 1px solid #999;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td {
+    padding: 10px;
+    
+}
+section{
+    display: flex;
+    margin: 20px;
+}
+.form-content{
+    display: flex;
+    margin: 20px;
+}
+nav{
+    display: block;
+    margin: 20px;
+}

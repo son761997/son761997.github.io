@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-variant: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container {
+    --padding: 1.5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+.container--fluid {
+    --padding: 1.5rem;
+    width: 100%;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+.row {
+    --gutter-x: 3rem;
+    --gutter-y: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: calc(var(--gutter-x) / -2);
+    margin-right: calc(var(--gutter-x) / -2);
+    margin-top: calc(var(--gutter-y) / -1);
+}
+
+.gx-0 {
+    --gutter-x: 0;
+}
+
+.gy-0 {
+    --gutter-y: 0;
+}
+
+.row > [class*="col"] {
+    padding-left: calc(var(--gutter-x) / 2);
+    padding-right: calc(var(--gutter-x) / 2);
+    margin-top: var(--gutter-y);
+}
+
+.col {
+    flex-basis: auto;
+}
+
+/* Screen < 576px */
+.col-1 {
+    flex-basis: 8.333333%;
+}
+
+.col-2 {
+    flex-basis: 16.666667%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+.col-4 {
+    flex-basis: 33.333333%;
+}
+
+.col-5 {
+    flex-basis: 41.666667%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-7 {
+    flex-basis: 58.333333%;
+}
+
+.col-8 {
+    flex-basis: 66.666667%;
+}
+
+.col-9 {
+    flex-basis: 75%;
+}
+
+.col-10 {
+    flex-basis: 83.333333%;
+}
+
+.col-11 {
+    flex-basis: 91.666667%;
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+
+
+/* Utility */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.text-center {
+    text-align: center;
+}
