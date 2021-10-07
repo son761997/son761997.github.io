@@ -1,0 +1,25 @@
+.movie{
+    position: relative;
+    color: whitesmoke;
+    padding: 10px;
+}
+.movie-meta{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.movie-action{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.movie-description{
+    position:absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.movie-cal{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
